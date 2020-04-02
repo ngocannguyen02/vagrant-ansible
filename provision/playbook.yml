@@ -1,0 +1,5 @@
+- hosts: all
+  gather_facts: yes
+  become: true
+  roles:
+    - ansible_role_template
